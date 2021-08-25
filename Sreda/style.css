@@ -1,0 +1,31 @@
+
+div {
+  margin-bottom: 15px;
+  color: red;
+}
+.userIspis {
+    color: black;
+}
+input[type="text"],
+input[type="password"], select {
+  margin-bottom: 5px;
+  border: 1px solid #0253b3;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+}
+
+label {
+  color: black;
+}
+
+#submit {
+  background-color: #0253b3;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+  width: 150px;
+  height: 25px;
+}

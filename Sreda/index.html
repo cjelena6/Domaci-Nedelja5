@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domaci 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-div">
+        <form class="forma">
+            <label for="name"> <b>Name:</b></label>
+        </br>
+            <input type="text" name="name" id="name" placeholder="Name">
+        </br>
+            <div class="name-error"></div>
+            <label for="surname"> <b>Last Name:</b></label>
+        </br>
+            <input type="text" name="surname" id="surname" placeholder="Last Name">
+            <div class="surname-error"></div>
+            <label for="password"> <b>Password:</b></label>
+        </br>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <div class="password-error"></div>
+            <label for="passwordConfirm"> <b>Confirm Password:</b></label>
+        </br>
+            <input type="password" name="passwordConf" id="passwordConfirm" placeholder="Confirm Password">
+            <div class="passwordConf-error"></div>
+            <label for="courses"> <b>Courses</b></label>
+        </br>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">Javascript</label>
+        </br>
+            <input type="checkbox" name="HTML" id="HT0ML">
+            <label for="HTML">HTML</label>
+        </br>
+            <input type="checkbox" name="CSS" id="CSS">
+            <label for="CSS">CSS</label>
+            <div class="checkbox-error"></div>
+
+            <select name="select" id="select">
+                <option value="0" disabled selected>City</option>
+                <option value="1">Krusevac</option>
+                <option value="2">Beograd</option>
+                <option value="2">Beograd</option>
+                <option value="3">Kraljevo</option>
+                <option value="4">Nis</option>
+            </select>
+            <div class="select-error"></div>
+            <label for="radio"> <b>Gender</b></label>
+            </br>
+            <label for="female">Female</label>
+            <input type="radio" name="radio" id="female">
+            <!-- </br> -->
+            <label for="male">Male</label>
+            <input type="radio" name="radio" id="male">
+            </br>
+            <div class="radio-error"></div>
+            <input type="submit" value="Sign Up" id="submit">
+        </form>
+    </div>
+    <div class="userIspis"></div>
+    <script src="domaci10.js"></script>
+</body>
+
+</html>
